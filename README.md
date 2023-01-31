@@ -18,5 +18,13 @@ This deliverable required the creation of two data tables. The first table was t
 
 This table shows that the mean PSI across the entire set is 1498.78, and that the variance is 62.29 which falls in compliance with the specifications that dictate variance for the MechaCar not be greater than 100. The mean tells us the average pressure per square inch in the suspension coils of the MechaCar, which is approximately 1500 PSI. The table below shows these same statistics with the data grouped by manufacturing lot.
 
-![table for manufacturing lot 1 summary statistics](
+![table for manufacturing lot 1 summary statistics](https://github.com/kaileyosha/MechaCarChallenge/blob/98bf0108ceeca18ea678194e56d22ba44d522cd8/MechaCarChallenge/Images/lot_summary.png)
+
+The most important thing to notice is that manufacturing lots one and two both fall well within the specifications given for the variance of the MechaCar while lot three does not. Lot three has a variance of approximately 170.3 which is well over the given specifications, which leads to the conclusion that manufacturing lot three could be a source of many of the issues in production AutosRU'S MechaCar prototypes. The recommendation here would be for oversight from upper management on manufacturing lot three's production center to ensure the same standards are being met. Manufacturing lot three also has the highest standard deviation and a lower mean than the other two lots. 
+
+## Deliverable Three - T-Tests on Suspension Coils 
+
+The purpose of this deliverable was to compare four sample means to the population mean via t-tests. The first sample was randomly generated across all lots, while the other three were samples based solely on the manufacturing lot. The null hypothesis for the t-tests would be that the means of our samples are not significantly different from the population mean, the alternative hypothesis being that the sample means are significantly different from the population mean. In this case, significance refers to statistical significance by having p-values less than the 0.05 confidence interval. Below is the table for the first t-test which examined a general sample in comparison to the population.
+
+![t-test across all lots versus the population mean](
 
