@@ -26,5 +26,24 @@ The most important thing to notice is that manufacturing lots one and two both f
 
 The purpose of this deliverable was to compare four sample means to the population mean via t-tests. The first sample was randomly generated across all lots, while the other three were samples based solely on the manufacturing lot. The null hypothesis for the t-tests would be that the means of our samples are not significantly different from the population mean, the alternative hypothesis being that the sample means are significantly different from the population mean. In this case, significance refers to statistical significance by having p-values less than the 0.05 confidence interval. Below is the table for the first t-test which examined a general sample in comparison to the population.
 
-![t-test across all lots versus the population mean](
+![t-test across all lots versus the population mean](https://github.com/kaileyosha/MechaCarChallenge/blob/557433579a48e2710b59e54aa4a59201af809987/MechaCarChallenge/Images/ttest_general.png)
+
+In looking at the above table, you should notice the p-value which is 0.8649. Seeing as this value is well over the 0.05 threshold, we are forced to accept the null hypothesis and conclude that the difference between the sample mean and population mean is zero. 
+
+![t-test for manufacturing lot 1](https://github.com/kaileyosha/MechaCarChallenge/blob/557433579a48e2710b59e54aa4a59201af809987/MechaCarChallenge/Images/ttest_lot1.png)
+
+This table shows the t-test based on a sample of data for only manufacturing lot one. It has the same null hypothesis, that the difference between the sample and population means are zero, and we can see that our p-value is well under the 0.05 threshold. With this in mind, we can reject the null hypothesis and conclude that the sample mean for manufacturing lot one is different from that of the population. 
+
+![t-test for manufacturing lot 2](https://github.com/kaileyosha/MechaCarChallenge/blob/557433579a48e2710b59e54aa4a59201af809987/MechaCarChallenge/Images/ttest_lot2.png)
+
+The above is the output of a t-test for manufacturing lot two. Like manufacturing lot one, the p-value on this t-test is substantially smaller than the 0.05 threshold. This means that, like manufacturing lot one, we can reject the null hypothesis and conclude that manufacturing lot two has a sample mean that is different from the population. 
+
+![t-test for manufacturing lot 3](https://github.com/kaileyosha/MechaCarChallenge/blob/557433579a48e2710b59e54aa4a59201af809987/MechaCarChallenge/Images/ttest_lot3.png)
+
+The final t-test for this deliverable was conducted on manufacturing lot three, the output of which is shown above. The p-value for this t-test is 0.1549, a value well over the 0.05 threshold, so we must accept the null hypothesis. This allows us to conclude that manufacturing lot three has a mean that shows no statistically significant difference from teh population mean. 
+
+
+## Deliverable Four - Study Design : MechaCar vs Competition 
+
+In an effort to remain in front of the competition, it is important that AutosRU has clear and relevant data on the MechaCar's operation versus that of its competitors. Most generally, fuel efficiency will be a large part of consumer decisions on which car they purchase, especially considering current trends in gas prices. AutosRU should do an analysis of fuel efficiency across various terrains (for example highways, cities, rural) for the MechaCar and its competitors. Other relevant variables besides the terrain could be the size of the car (length, weight), and tire pressure. Once all of this data has been collected for all cars being examined, a linear regression model should be able to predict the fuel efficiency for the MechaCar and its competitors. The null hypothesis would be that there is no significant difference in fuel efficiency across the different vehicles. The alternative hypothesis for this study would be that there is a significant difference in fuel efficiency across the different vehicles. The goal is for the MechaCar to be more fuel efficient, thus making consumers feel they are getting a significant return on their investment into the MechaCar. Other avenues worth studying could be the maintenance costs, and safety ratings for the MechaCar versus the competition. 
 
