@@ -16,7 +16,7 @@ This deliverable required the creation of two data tables. The first table was t
 
 ![table of summary statistics](https://github.com/kaileyosha/MechaCarChallenge/blob/eb03981109b853c45d65c03ac66df3bd0eb81ed3/MechaCarChallenge/Images/table_summary.png)
 
-This table shows that the mean PSI across the entire set is 1498.78, and that the variance is 62.29 which falls in compliance with the specifications that dictate variance for the MechaCar not be greater than 100. The mean tells us the average pressure per square inch in the suspension coils of the MechaCar, which is approximately 1500 PSI. The table below shows these same statistics across the first manufacturing lot. 
+This table shows that the mean PSI across the entire set is 1498.78, and that the variance is 62.29 which falls in compliance with the specifications that dictate variance for the MechaCar not be greater than 100. The mean tells us the average pressure per square inch in the suspension coils of the MechaCar, which is approximately 1500 PSI. The table below shows these same statistics with the data grouped by manufacturing lot.
 
 ![table for manufacturing lot 1 summary statistics](
 
