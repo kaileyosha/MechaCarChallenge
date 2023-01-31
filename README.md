@@ -4,5 +4,7 @@ The purpose of this project was to analyze manufacturing data for AutosRU's newe
 
 ## Deliverable One - Linear Regression to Predict MPG
 
+![regression](https://github.com/kaileyosha/MechaCarChallenge/blob/011aec7dff75a0ca05e975a171b829868b5b34e6/MechaCarChallenge/Images/regression.png)
+
 
 
